@@ -21,7 +21,7 @@ jobs:
             conda: environment.yaml
             prop: tests & examples
             compiler: gcc
-            gcc: 8
+            gcc: 7
 
     defaults:
       run:
